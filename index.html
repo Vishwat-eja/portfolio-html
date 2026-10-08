@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kadam Vishwa Teja | Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Kadam Vishwa Teja, a full-stack developer in Hyderabad building web apps and AI-driven systems.">
+<meta property="og:title" content="Kadam Vishwa Teja | Full-Stack Developer">
+<meta property="og:description" content="Web apps and AI-driven systems: Bookease, a greenhouse RL controller and a smart footstep energy harvesting system.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%236a4cff'/%3E%3Ctext x='50' y='66' font-size='52' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EVT%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="#top">Vishwa Teja</a>
+    <nav id="nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch to dark mode">Theme</button>
+      <button id="menu-toggle" class="icon-btn menu-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="container">
+      <h1 id="hero-title">Kadam <span>Vishwa Teja</span></h1>
+      <p class="pitch">Full-stack developer in Hyderabad, building web apps and AI-driven systems, from database to interface.</p>
+      <div class="btn-row">
+        <a class="btn primary" href="#projects">View projects</a>
+        <a class="btn" href="#contact">Contact me</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" aria-labelledby="about-title">
+    <div class="container about">
+      <img src="images/photo.jpg" alt="Portrait of Kadam Vishwa Teja" width="600" height="600">
+      <div>
+        <h2 id="about-title">About</h2>
+        <p>I'm a full-stack developer based in Hyderabad, Telangana, who enjoys turning ideas into working products, from React interfaces to Node.js APIs and SQL databases.</p>
+        <p>I also build projects that connect software to real-world problems, like greenhouse climate control and energy harvesting for public transport.</p>
+        <p>I'm open to internships, jobs and freelance work.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" aria-labelledby="skills-title">
+    <div class="container">
+      <h2 id="skills-title">Skills</h2>
+      <div class="grid skills">
+        <article class="card"><h3>Languages</h3><ul class="tags"><li>Java</li><li>C</li><li>C#</li><li>Python</li><li>JavaScript</li><li>SQL</li></ul></article>
+        <article class="card"><h3>Frontend</h3><ul class="tags"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React</li></ul></article>
+        <article class="card"><h3>Backend and data</h3><ul class="tags"><li>Node.js</li><li>SQL</li><li>PostgreSQL</li><li>Prisma</li></ul></article>
+        <article class="card"><h3>Computer science</h3><ul class="tags"><li>Problem solving</li><li>Data structures</li></ul></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" aria-labelledby="projects-title">
+    <div class="container">
+      <h2 id="projects-title">Projects</h2>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button type="button" class="chip active" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="chip" data-filter="web" aria-pressed="false">Web</button>
+        <button type="button" class="chip" data-filter="ai" aria-pressed="false">AI</button>
+      </div>
+      <div class="grid projects">
+        <article class="card project" data-cat="web">
+          <h3>Bookease</h3>
+          <p>A full-stack booking platform with a React frontend, a Node.js API and a PostgreSQL database.</p>
+          <ul class="tags"><li>React</li><li>Node.js</li><li>Prisma</li><li>PostgreSQL</li></ul>
+          <p class="links"><a href="https://github.com/Vishwat-eja/Bookease" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+        </article>
+        <article class="card project" data-cat="ai">
+          <h3>Reinforcement Learning-Based Greenhouse Climate Controller</h3>
+          <p>A reinforcement learning agent that learns to keep greenhouse conditions stable while using less energy. In progress.</p>
+          <ul class="tags"><li>Python</li><li>Reinforcement learning</li></ul>
+          <p class="links"><a href="https://github.com/Vishwat-eja" target="_blank" rel="noopener noreferrer">GitHub profile</a></p>
+        </article>
+        <article class="card project" data-cat="ai">
+          <h3>AI-Based Smart Footstep Energy Harvesting System for Railway Stations and Metro Platforms</h3>
+          <p>A system that captures energy from foot traffic on busy platforms and uses AI to manage the power it collects. In progress.</p>
+          <ul class="tags"><li>AI</li><li>Energy harvesting</li><li>Smart infrastructure</li></ul>
+          <p class="links"><a href="https://github.com/Vishwat-eja" target="_blank" rel="noopener noreferrer">GitHub profile</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-title">
+    <div class="container">
+      <h2 id="contact-title">Contact</h2>
+      <p>Have a project, role or idea? Send me an email or find me online.</p>
+      <ul class="contact-list">
+        <li><a href="mailto:kadamvishwavnr28@gmail.com">kadamvishwavnr28@gmail.com</a></li>
+        <li><a href="https://github.com/Vishwat-eja" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/vishwa-teja-kadam-671679326/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/__vishwateja__/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">&copy; <span id="year">2026</span> Kadam Vishwa Teja. Hyderabad, India.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
